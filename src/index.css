@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+.react-icon {
+  cursor: pointer;
+  font-size: 30px;
+}

@@ -1,0 +1,21 @@
+.task_list_container {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  flex-direction: column;
+  padding: 20px 0px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .task_list_item_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+  }
+}

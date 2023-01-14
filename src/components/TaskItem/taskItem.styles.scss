@@ -1,0 +1,25 @@
+.task_item_container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  color: black;
+  border-bottom: 2px solid gray;
+  border-radius: 25px;
+  .text_mark {
+    text-decoration: line-through;
+  }
+
+  span {
+    color: green;
+  }
+  .task_item_tools_container {
+    display: flex;
+    gap: 10px;
+  }
+}
+.completed_task {
+  background-color: rgb(188, 187, 187);
+}
